@@ -67,7 +67,7 @@ const Header = () => {
                 <Image
                     data-aos="fade-up"
                     data-aos-duration="1000"
-                    src="/profile.webp"
+                    src="https://res.cloudinary.com/dtbavb3cw/image/upload/v1665407117/profile_fcuame.webp"
                     layout="fill"
                     objectFit="contain"
                     alt="Picture of the author"
