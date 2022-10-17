@@ -8,7 +8,7 @@ import {
 
 const Header = () => {
     return (
-        <div className="flex lg:flex-row md:flex-col flex-col lg:gap-32 justify-center items-center mb-44 h-screen">
+        <div className="flex lg:flex-row md:flex-col flex-col lg:gap-32 justify-center items-center h-screen">
             <div className=" text-center p-10 flex flex-col items-center justify-center">
                 <h2
                     className="lg:text-[100px] text-6xl py-2 font-greenlondon tracking-wider font-medium text-teal-600 "
