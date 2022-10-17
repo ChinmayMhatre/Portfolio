@@ -5,6 +5,7 @@ import Blog from "../components/Blog";
 import Nav from "../components/Nav";
 import Header from "../components/Header";
 import { useState } from "react";
+import ScrollToTop from "../components/ScrollToTop";
 
 export default function Home() {
     const [darkMode, setDarkMode] = useState(true);
@@ -24,7 +25,7 @@ export default function Home() {
                 <Header />
                 <Skills />
                 <Blog />
-
+                <ScrollToTop />
 
             </main>
         </div>
