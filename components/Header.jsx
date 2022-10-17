@@ -8,10 +8,10 @@ import {
 
 const Header = () => {
     return (
-        <div className="flex lg:flex-row  md:flex-col flex-col lg:gap-32 justify-center items-center mt-20 mb-44">
+        <div className="flex lg:flex-row md:flex-col flex-col lg:gap-32 justify-center items-center mb-44 h-screen">
             <div className=" text-center p-10 flex flex-col items-center justify-center">
                 <h2
-                    className="text-5xl py-2 font-medium text-teal-600 md:text-6xl"
+                    className="lg:text-[100px] text-6xl py-2 font-greenlondon tracking-wider font-medium text-teal-600 "
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="100"
@@ -19,12 +19,12 @@ const Header = () => {
                     Chinmay Mhatre
                 </h2>
                 <h3
-                    className="text-2xl py-2 md:text-3xl dark:text-white"
+                    className="text-2xl py-2 md:text-4xl pt-4 dark:text-white"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="200"
                 >
-                    Developer.
+                    Front End Developer.
                 </h3>
                 <p
                     data-aos="fade-up"
@@ -38,7 +38,7 @@ const Header = () => {
                     data-aos="fade-up"
                     data-aos-duration="1000"
                     data-aos-delay="300"
-                    className="text-5xl flex justify-center gap-16 py-3 text-gray-600   "
+                    className="text-5xl flex justify-center gap-10 py-3 text-gray-600   "
                 >
                     <a
                         className="hover:text-teal-600 transition-all"
@@ -59,7 +59,7 @@ const Header = () => {
                 </div>
             </div>
 
-            <div
+            {/* <div
                 data-aos="fade-up"
                 data-aos-duration="1000"
                 className="relative bg-gradient-to-b from-teal-500 overflow-hidden rounded-full w-80 h-80 mt-20  lg:h-96 lg:w-96 "
@@ -75,7 +75,7 @@ const Header = () => {
                     height={300}
                     style={{ transform: "translateX(-20px)" }}
                 />
-            </div>
+            </div> */}
         </div>
     );
 };

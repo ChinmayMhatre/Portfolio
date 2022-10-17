@@ -24,7 +24,7 @@ const Blog = () => {
 
 
     return (
-        <section className="pt-10 pb-20">
+        <section className="pt-10 pb-20  h-screen flex flex-col items-center justify-center">
             <div>
                 <h3
                     className="text-6xl py-1 mt-5 dark:text-white text-center "

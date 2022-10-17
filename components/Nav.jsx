@@ -4,7 +4,7 @@ import { BsFillMoonStarsFill } from "react-icons/bs";
 
 const Nav = ({darkMode,setDarkMode}) => {
     return (
-        <nav className="py-10 mb-12 flex justify-between dark:text-white lg:mb-0 md:mb-0 md:pb-0">
+        <nav className=" h-16 flex justify-between items-center dark:text-white lg:mb-0 md:mb-0 md:pb-0">
             <h1 className="text-xl font-burtons">Chinmay Mhatre</h1>
             <ul className="flex items-center">
                 <li>

@@ -4,9 +4,9 @@ import Cube from "../components/Cube";
 
 const Skills = () => {
     return (
-        <>
+        <div className="h-screen ">
             <h3
-                className="text-6xl py-1  dark:text-white text-center mt-14"
+                className="text-6xl py-1  dark:text-white text-center"
                 data-aos="fade-up"
                 data-aos-duration="1000"
             >
@@ -22,7 +22,7 @@ const Skills = () => {
                 Here are some of the technologies I&apos;ve been working with
             </h4>
             <Cube />
-        </>
+        </div>
     );
 };
 
