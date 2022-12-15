@@ -1,91 +1,115 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
 
 
 html,
 body {
-    padding: 0;
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: "burtons";
-    src: url("../public/Burtons.otf");
+  font-family: "Poppins";
+  src: url('../public/Poppins-Regular.ttf');
 }
 
-@font-face{
-    font-family: "Green London";
-    src: url("../public/Green\ London.ttf");
+@font-face {
+  font-family: "Preahvihear";
+  src: url("../public/Preahvihear.ttf");
+}
+
+h2 {
+  color: white;
+  font-family: "Preahvihear";
+}
+
+h3 {
+  color: white;
+  font-family: "Preahvihear";
+}
+
+p {
+  font-family: "Poppins";
 }
 
 .cube-section {
-    width: 100%;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   transform: skewY(-20deg);
-  }
+}
 
 .container {
-    position: relative;
-    top: -80px;
-    display: flex;
-    justify-content: center;
-    animation : animate 5s linear infinite;
+  position: relative;
+  top: -80px;
+  display: flex;
+  justify-content: center;
+  animation: animate 5s linear infinite;
+}
+
+.gradient {
+  /* background-image: radial-gradient( rgba(149, 84, 209, 100), rgba(50, 15, 113, 0)); */
+  background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
 }
 
 @keyframes animate {
   0% {
     filter: hue-rotate(0deg);
   }
+
   100% {
     filter: hue-rotate(360deg);
   }
 }
 
 .container .cube {
-    z-index: 2;
+  z-index: 2;
 }
 
 .container .cube:nth-child(2) {
   z-index: 1;
   translate: -60px -60px;
 }
+
 .container .cube:nth-child(3) {
   z-index: 3;
   translate: 60px 60px;
 }
+
 .container .cube div {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    translate: calc(-70px * var(--x)) calc(-60px * var(--y));
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  translate: calc(-70px * var(--x)) calc(-60px * var(--y));
 }
 
 .container .cube div span {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 50px;
-    height: 50px;
-    background: #dcdcdc;
-    z-index: calc(1 * var(--i));
-    transition: 1.5s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background: #dcdcdc;
+  z-index: calc(1 * var(--i));
+  transition: 1.5s;
 }
 
 
@@ -107,6 +131,7 @@ a {
   transform: skewY(45deg);
   transition: 1.5s;
 }
+
 .container .cube div span:hover::before {
   transition: 0s;
   background: rgb(20 184 166);
@@ -125,12 +150,11 @@ a {
   transform: skewX(45deg);
   transition: 1.5s;
 }
+
 .container .cube div span:hover::after {
   transition: 0s;
   background: rgb(20 184 166);
   filter: drop-shadow(0 0 20px rgb(20 184 166));
 }
 
-@media (max-width: 768px) {
-
-}
+@media (max-width: 768px) {}

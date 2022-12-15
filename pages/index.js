@@ -6,11 +6,12 @@ import Nav from "../components/Nav";
 import Header from "../components/Header";
 import { useState } from "react";
 import ScrollToTop from "../components/ScrollToTop";
+import Brands from "../components/Brands";
+import Projects from "../components/Projects";
 
 export default function Home() {
-    const [darkMode, setDarkMode] = useState(true);
     return (
-        <div className={darkMode ? "dark" : ""}>
+        <div >
             <Head>
                 <title>Chinmay Mhatre Portfolio</title>
                 <meta
@@ -20,11 +21,10 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
 
-            <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900 ">
+            <main className=" bg-primary ">
                 {/* <Nav darkMode={darkMode} setDarkMode={setDarkMode} /> */}
                 <Header />
-                <Skills />
-                <Blog />
+                <Projects />
                 <ScrollToTop />
 
             </main>

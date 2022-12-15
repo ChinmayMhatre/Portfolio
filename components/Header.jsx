@@ -8,74 +8,47 @@ import {
 
 const Header = () => {
     return (
-        <div className="flex lg:flex-row md:flex-col flex-col lg:gap-32 justify-center items-center h-screen">
-            <div className=" text-center p-10 flex flex-col items-center justify-center">
-                <h2
-                    className="lg:text-[100px] select-none text-6xl py-2 font-greenlondon tracking-wider font-medium text-teal-600 "
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="100"
-                >
-                    Chinmay Mhatre
-                </h2>
-                <h3
-                    className="text-2xl select-none py-2 md:text-4xl pt-4 dark:text-white"
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="200"
-                >
-                    Front End Developer.
-                </h3>
-                <p
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="200"
-                    className="text-lg py-5 leading-8 max-w-xl mx-auto text-gray-500 md:text-xl"
-                >
-                    Join me down below and let&apos;s get cracking!
-                </p>
-                <div
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    data-aos-delay="300"
-                    className="text-5xl flex justify-center gap-10 py-3 text-gray-600   "
-                >
-                    <a
-                        className="hover:text-teal-600 transition-all"
-                        target="_blank"
-                        rel="noreferrer"
-                        href="https://twitter.com/chinmaysmhatre"
-                    >
-                        <AiFillTwitterCircle />
-                    </a>
-                    <a
-                        href="https://www.linkedin.com/in/chinmaymhatre/"
-                        className="hover:text-teal-600 transition-all "
-                        target="_blank"
-                        rel="noreferrer"
-                    >
-                        <AiFillLinkedin />
-                    </a>
+        <div className="w-[100%] md:w-[70%] lg:w-[70%] mx-auto">
+            <div className=" py-10 flex-col md:flex-row flex items-center">
+                <div className="relative md:overflow-visible ">
+                    <div className="gradient blur-lg w-[300px] mx-auto  h-[300px] md:block rounded-[100%]">
+
+                    </div>
+                    <img src="/animoji.png" className=" absolute top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] w-[150px] z-20" alt="" />
                 </div>
+                <div className=" hidden md:block">
+                    <div className=" justify-center relative flex flex-col w-[90%]">
+                        <img src="/arrow.png" className="absolute hidden md:block z-20 -top-0 -left-28" alt="" />
+                        <div className="py-5 ">
+                            <p className="text-white font-preahvihear w-60">Hello! I Am <span className=" text-[#7127BA]">Chinmay Mhatre</span></p>
+                            <h3 className="text-white text-xl mt-12">A Full Stack Developer who
+                            </h3>
+                            <h2 className="text-4xl pt-2 font-semibold">Judges a website
+                                by its repo... </h2>
+                        </div>
+                        <p className="text-white text-xs font-thin">
+                        Because if the cover does not impress you what else can?
+
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <div className=" justify-center flex flex-col w-[80%]">
+                <div className="py-5">
+
+                    <h2 className="text-[50px] font-semibold">I'm a Software Engineer. </h2>
+                    <h3 className="text-white text-[21px] ">Currently, I'm a Software Engineer at
+                        <img src="/Capgemini.svg" alt="" className="w-36 inline-block ml-2" />
+                    </h3>
+                </div>
+                <p className="text-white text-[22px] leading-8 pt-2">
+                    A software engineer who specializes in building (and occasionally designing)  digital experiences.
+
+                </p>
+                <p className="text-white text-[22px] leading-8 pt-2">I make meaningful and delightful website. I also like to write about all things JavaScript.</p>
             </div>
 
-            {/* <div
-                data-aos="fade-up"
-                data-aos-duration="1000"
-                className="relative bg-gradient-to-b from-teal-500 overflow-hidden rounded-full w-80 h-80 mt-20  lg:h-96 lg:w-96 "
-            >
-                <Image
-                    data-aos="fade-up"
-                    data-aos-duration="1000"
-                    src="/profile.webp"
-                    layout="fill"
-                    objectFit="contain"
-                    alt="Picture of the author"
-                    width={300}
-                    height={300}
-                    style={{ transform: "translateX(-20px)" }}
-                />
-            </div> */}
         </div>
     );
 };
