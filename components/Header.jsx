@@ -27,7 +27,7 @@ const Header = () => {
                                 by its repo... </h2>
                         </div>
                         <p className="text-white text-xs font-thin">
-                        Because if the cover does not impress you what else can?
+                        Because if the repo does not impress you what else can?
 
                         </p>
                     </div>
@@ -42,11 +42,11 @@ const Header = () => {
                         <img src="/Capgemini.svg" alt="" className="w-36 inline-block ml-2" />
                     </h3>
                 </div>
-                <p className="text-white text-[22px] leading-8 pt-2 md:pr-40">
+                <p className="text-white text-[22px] font-preahvihear leading-8 pt-2 md:pr-40">
                     A software engineer who specializes in building (and occasionally designing)  digital experiences.
 
                 </p>
-                <p className="text-white text-[22px] leading-8 pt-2 md:pr-40">I make meaningful and delightful website. I also like to write about all things JavaScript.</p>
+                <p className="text-white text-[22px] font-preahvihear leading-8 pt-2 md:pr-40">I make meaningful and delightful website. I also like to write about all things JavaScript.</p>
             </div>
 
         </div>

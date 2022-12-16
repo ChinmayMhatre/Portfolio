@@ -39,7 +39,7 @@ const Card = ({ index, blog }) => {
                 className="rounded-lg w-full object-cover"
                 />
             <div className="px-10 py-4">
-                <h3 className="text-xl font-bold p-0 m-0 font-poppins text-white ">
+                <h3 className="text-xl  font-bold p-0 m-0 font-poppins text-white ">
                     {blog.title}
                 </h3>
                 <p className="pb-4 text-xs font-poppins  text-gray-400">

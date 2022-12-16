@@ -91,7 +91,7 @@ const Blog = () => {
             </div>
 
             <button
-                className=" text-white font-poppins px-10 py-3 rounded-lg "
+                className=" text-white transition-all duration-150 hover:text-[#9857D3] font-poppins px-10 py-3 rounded-lg "
             >
                 See more of my Blogs →
             </button>

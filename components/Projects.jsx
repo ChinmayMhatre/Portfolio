@@ -44,10 +44,10 @@ const Projects = () => {
                </div>
             </div>
             <div className=" order-2 bg-project-pattern object-contain flex items-center justify-center rounded-md">
-               <img src="/dashboard.png" className='w-[80%] py-10 object-contain shadow-lg rounded-md' alt="" />
+               <img src="/dashboard.png" className='w-[90%] py-10 object-contain shadow-lg rounded-md' alt="" />
             </div>
             <div className=" order-4 md:order-3 bg-project-pattern object-contain flex items-center justify-center rounded-md">
-               <img src="/gif.png" className='w-[80%] py-10 object-contain shadow-lg rounded-md' alt="" />
+               <img src="/gif.png" className='w-[90%] py-10 object-contain shadow-lg rounded-md' alt="" />
             </div>
             <div className="order-3 md:order-4">
                <h4 className='text-[#9857D3] font-poppins'>Featured Project</h4>
@@ -93,7 +93,7 @@ const Projects = () => {
                </div>
             </div>
             <div className="order-6 bg-project-pattern py-10 object-contain flex items-center justify-center rounded-md">
-               <img src="/dashboard.png" className='w-[80%] object-contain shadow-lg rounded-md' alt="" />
+               <img src="/dashboard.png" className='w-[90%] object-contain shadow-lg rounded-md' alt="" />
             </div>
          </div>
       </div>
