@@ -59,18 +59,18 @@ const Blog = () => {
     ] 
 
     return (
-        <section className="py-10  lg:h-screen flex flex-col items-center justify-center">
+        <section className="py-10 w-[90%] md:w-[70%] lg:w-[70%]  mx-auto lg:h-screen flex flex-col items-center justify-center">
             <div>
                 <h3
                     className="font-preahvihear text-4xl pt-10 text-center "
-                    data-aos="fade-up"
+                    data-aos="fade-right"
                     data-aos-duration="1000"
                 >
                     My Blogs
                 </h3>
                 <p
                     className="text-xl text-gray-400 text-center py-2 "
-                    data-aos="fade-up"
+                    data-aos="fade-right"
                     data-aos-delay="100"
                     data-aos-duration="1000"
                     data-aos-anchor-placement="top-bottom"

@@ -26,7 +26,7 @@ const Card = ({ index, blog }) => {
 
     return (
         <div
-            className=" shadow-lg  rounded-xl my-10 font-poppins flex-1 bg-[#251C31] border-b-4  border-[#693B93] lg:max-w-xs"
+            className=" shadow-lg  rounded-xl my-4 md:my-10 font-poppins flex-1 bg-[#251C31] border-b-4  border-[#693B93] lg:max-w-xs"
         // data-aos="fade-up"
         // data-aos-delay={delay}
         // data-aos-duration="1000"

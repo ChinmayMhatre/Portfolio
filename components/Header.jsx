@@ -8,7 +8,7 @@ import {
 
 const Header = () => {
     return (
-        <div className="w-[100%] md:w-[70%] lg:w-[70%] mx-auto">
+        <div className="w-[90%] md:w-[70%] lg:w-[70%] mx-auto">
             <div className=" py-10 flex-col md:flex-row flex items-center">
                 <div className="relative md:overflow-visible ">
                     <div className="gradient blur-lg w-[300px] mx-auto  h-[300px] md:block rounded-[100%]">
@@ -34,7 +34,7 @@ const Header = () => {
                 </div>
 
             </div>
-            <div className=" justify-center flex flex-col w-[80%]">
+            <div className=" justify-center flex flex-col ">
                 <div className="py-5">
 
                     <h2 className="text-[50px] font-semibold">I'm a Software Engineer. </h2>
@@ -42,11 +42,11 @@ const Header = () => {
                         <img src="/Capgemini.svg" alt="" className="w-36 inline-block ml-2" />
                     </h3>
                 </div>
-                <p className="text-white text-[22px] leading-8 pt-2">
+                <p className="text-white text-[22px] leading-8 pt-2 md:pr-40">
                     A software engineer who specializes in building (and occasionally designing)  digital experiences.
 
                 </p>
-                <p className="text-white text-[22px] leading-8 pt-2">I make meaningful and delightful website. I also like to write about all things JavaScript.</p>
+                <p className="text-white text-[22px] leading-8 pt-2 md:pr-40">I make meaningful and delightful website. I also like to write about all things JavaScript.</p>
             </div>
 
         </div>

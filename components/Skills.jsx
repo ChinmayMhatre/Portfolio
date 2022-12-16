@@ -1,43 +1,54 @@
 import React from "react";
 import { ArcherContainer, ArcherElement } from 'react-archer';
+import { GrReactjs } from "react-icons/gr";
+import { TbBrandNextjs } from "react-icons/tb";
+import { SiFirebase, SiMongodb, SiExpress, SiFigma, SiTailwindcss } from "react-icons/si";
+import { DiGit, DiCss3, DiJavascript1 } from "react-icons/di";
+import { AiFillGithub, AiOutlineHtml5 } from "react-icons/ai";
+import { FaNodeJs } from "react-icons/fa"
 
 
 const Skills = () => {
     return (
         <div className="pt-20">
 
-            <h2 className="pt-10 text-2xl text-white w-[60%] mx-auto text-center">I'm currently looking to join a <span className="text-[#A362FF]">cross-functional</span> team
+            <h2 className="pt-10 text-2xl text-white md:w-[60%] mx-auto text-center">I'm currently looking to join a <span className="text-[#A362FF]">cross-functional</span> team
             </h2>
-            <h3 className="  text-white w-[60%] mx-auto text-center">
+            <h3 className="  text-white md:w-[60%] mx-auto text-center">
                 that values improving people's lives through accessible design
             </h3>
             <div className="flex justify-center items-center flex-col">
 
-                <div className="skills flex gap-4 pt-20">
-                    <div className="circle w-14 h-14 bg-gray-800 rounded-full">
+                <div className="skills flex gap-2 md:gap-4 pt-20">
+                    <div className="circle">
+                        <GrReactjs
+                            className="text-white text-lg md:text-2xl"
 
+                        />
                     </div>
-                    <div className="circle w-14 h-14 bg-gray-800 rounded-full">
-
+                    <div className="circle ">
+                        <TbBrandNextjs
+                            className="text-white text-lg md:text-2xl"
+                        />
                     </div>
-                    <div className="circle w-14 h-14 bg-gray-800 rounded-full">
-
+                    <div className="circle ">
+                        <DiJavascript1 className="text-white text-lg md:text-2xl" />
                     </div>
-                    <div className="circle w-14 h-14 bg-gray-800 rounded-full">
-
+                    <div className="circle">
+                        <DiCss3 className="text-white text-lg md:text-2xl" />
                     </div>
-                    <div className="circle w-14 h-14 bg-gray-800 rounded-full">
-
+                    <div className="circle ">
+                        <AiOutlineHtml5 className="text-white text-lg md:text-2xl" />
                     </div>
-                    <div className="circle w-14 h-14 bg-gray-800 rounded-full">
-                        
+                    <div className="circle ">
+                        <SiTailwindcss className="text-white text-lg md:text-2xl" />
                     </div>
-                    <div className="circle w-14 h-14 bg-gray-800 rounded-full">
-                        
+                    <div className="circle ">
+                        <SiFigma className="text-white text-lg md:text-2xl" />
                     </div>
                 </div>
                 <ArcherContainer endMarker={false} >
-                    <div className="skills flex justify-center items-center gap-4 pt-10">
+                    <div className="skills flex justify-center items-center gap-2 md:gap-4 pt-10">
                         <ArcherElement
                             id="1"
                             relations={[
@@ -49,7 +60,9 @@ const Skills = () => {
                                 },
                             ]}
                         >
-                            <div className="circle w-14 h-14 bg-gray-800 rounded-full"></div>
+                            <div className="circle flex items-center justify-center w-10 h-10 md:w-14 md:h-14 bg-gray-800 rounded-full">
+                                <SiFirebase className="text-white text-lg md:text-2xl" />
+                            </div>
                         </ArcherElement>
                         <ArcherElement
                             id="2"
@@ -62,7 +75,9 @@ const Skills = () => {
                                 },
                             ]}
                         >
-                            <div className="circle w-14 h-14 bg-gray-800 rounded-full"></div>
+                            <div className="circle">
+                                <DiGit className="text-white text-lg md:text-2xl" />
+                            </div>
                         </ArcherElement>
                         <ArcherElement
                             id="3"
@@ -75,7 +90,9 @@ const Skills = () => {
                                 },
                             ]}
                         >
-                            <div className="circle w-14 h-14 bg-gray-800 rounded-full"></div>
+                            <div className="circle ">
+                                <AiFillGithub className="text-white text-lg md:text-2xl" />
+                            </div>
                         </ArcherElement>
                         <ArcherElement
                             id="4"
@@ -88,7 +105,9 @@ const Skills = () => {
                                 },
                             ]}
                         >
-                            <div className="circle w-14 h-14 bg-gray-800 rounded-full"></div>
+                            <div className="circle ">
+                                <FaNodeJs className="text-white text-lg md:text-2xl" />
+                            </div>
                         </ArcherElement>
                         <ArcherElement
                             id="5"
@@ -101,7 +120,9 @@ const Skills = () => {
                                 },
                             ]}
                         >
-                            <div className="circle w-14 h-14 bg-gray-800 rounded-full"></div>
+                            <div className="circle ">
+                                <SiMongodb className="text-white text-lg md:text-2xl" />
+                            </div>
                         </ArcherElement>
                         <ArcherElement
                             id="6"
@@ -114,10 +135,12 @@ const Skills = () => {
                                 },
                             ]}
                         >
-                            <div className="circle w-14 h-14 bg-gray-800 rounded-full"></div>
+                            <div className="circle ">
+                                <SiExpress className="text-white text-lg md:text-2xl" />
+                            </div>
                         </ArcherElement>
-                        
-                        
+
+
                     </div>
                     <ArcherElement
                         id="img"
