@@ -3,9 +3,24 @@ import React from 'react'
 const Projects = () => {
    return (
       <div className='w-[90%] md:w-[70%] lg:w-[70%]  mx-auto pb-10'>
-         <h2 className='font-preahvihear text-4xl py-20 text-center'
-            data-aos="fade-right"
-            data-aos-duration="1000">Projects</h2>
+         <div className='pb-20'>
+                <h3
+                    className="font-preahvihear text-4xl pt-10 text-center "
+                    data-aos="fade-right"
+                    data-aos-duration="1000"
+                >
+                    My Projects
+                </h3>
+                <p
+                    className="text-xl text-gray-400 text-center py-2 "
+                    data-aos="fade-right"
+                    data-aos-delay="100"
+                    data-aos-duration="1000"
+                    data-aos-anchor-placement="top-bottom"
+                >
+                     I build projects to learn new technologies and to showcase my skills
+                </p>
+            </div>
          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-10 md:gap-y-20">
             <div className="order-1">
                <h4 className='text-[#9857D3] font-poppins'>Featured Project</h4>
