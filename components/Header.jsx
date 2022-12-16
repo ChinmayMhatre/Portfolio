@@ -26,7 +26,7 @@ const Header = () => {
                             <h2 className="text-4xl pt-2 font-semibold">Judges a website
                                 by its repo... </h2>
                         </div>
-                        <p className="text-white text-xs font-thin">
+                        <p className="text-white text-xs font-preahvihear font-thin">
                         Because if the repo does not impress you what else can?
 
                         </p>

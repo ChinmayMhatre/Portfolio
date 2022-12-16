@@ -24,7 +24,7 @@ const Projects = () => {
          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-10 gap-y-10 md:gap-y-20">
             <div className="order-1">
                <h4 className='text-[#9857D3] font-poppins'>Featured Project</h4>
-               <h3 className='font-poppins text-2xl dont-semibold text-[#CCD6F6]'>Guitar Practice</h3>
+               <h3 className='text-2xl dont-semibold text-[#CCD6F6]'>Guitar Practice</h3>
                <p className='font-poppins text-[#CCD6F6]'>
                   A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track.
                </p>
@@ -51,7 +51,7 @@ const Projects = () => {
             </div>
             <div className="order-3 md:order-4">
                <h4 className='text-[#9857D3] font-poppins'>Featured Project</h4>
-               <h3 className='font-poppins text-2xl dont-semibold text-[#CCD6F6]'>Guitar Practice</h3>
+               <h3 className='text-2xl dont-semibold text-[#CCD6F6]'>Guitar Practice</h3>
                <p className='font-poppins text-[#CCD6F6]'>
                   A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track.
                </p>
@@ -73,7 +73,7 @@ const Projects = () => {
 
             <div className="order-5">
                <h4 className='text-[#9857D3] font-poppins'>Featured Project</h4>
-               <h3 className='font-poppins text-2xl dont-semibold text-[#CCD6F6]'>Guitar Practice</h3>
+               <h3 className=' text-2xl dont-semibold text-[#CCD6F6]'>Guitar Practice</h3>
                <p className='font-poppins text-[#CCD6F6]'>
                   A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track.
                </p>

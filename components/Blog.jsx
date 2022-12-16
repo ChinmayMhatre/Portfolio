@@ -69,7 +69,7 @@ const Blog = () => {
                     My Blogs
                 </h3>
                 <p
-                    className="text-xl text-gray-400 text-center py-2 "
+                    className="text-xl text-gray-400 font-preahvihear text-center py-2 "
                     data-aos="fade-right"
                     data-aos-delay="100"
                     data-aos-duration="1000"
