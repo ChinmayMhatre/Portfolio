@@ -21,7 +21,7 @@ const Header = () => {
                         <img src="/arrow.png" className="absolute hidden md:block z-20 -top-0 -left-28" alt="" />
                         <div className="py-5 ">
                             <p className="text-white font-preahvihear w-60">Hello! I Am <span className=" text-[#7127BA]">Chinmay Mhatre</span></p>
-                            <h3 className="text-white text-xl mt-12">A Full Stack Developer who
+                            <h3 className="text-white text-xl mt-12">A Developer who
                             </h3>
                             <h2 className="text-4xl pt-2 font-semibold">Judges a website
                                 by its repo... </h2>
@@ -37,13 +37,13 @@ const Header = () => {
             <div className=" justify-center flex flex-col ">
                 <div className="py-5">
 
-                    <h2 className="text-[50px] font-semibold">I'm a Software Engineer. </h2>
+                    <h2 className="text-[50px] font-semibold">I'm a Front End Developer. </h2>
                     <h3 className="text-white text-[21px] ">Currently, I'm a Software Engineer at
                         <img src="/Capgemini.svg" alt="" className="w-36 inline-block ml-2" />
                     </h3>
                 </div>
                 <p className="text-white text-[22px] font-preahvihear leading-8 pt-2 md:pr-40">
-                    A software engineer who specializes in building (and occasionally designing)  digital experiences.
+                    I specializes in building (and occasionally designing)  digital experiences.
 
                 </p>
                 <p className="text-white text-[22px] font-preahvihear leading-8 pt-2 md:pr-40">I make meaningful and delightful website. I also like to write about all things JavaScript.</p>
