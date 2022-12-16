@@ -37,6 +37,26 @@ h2 {
   font-family: "Preahvihear";
 }
 
+.exgradient {
+  background: linear-gradient(110.49deg, #130428 19.95%, #251043 67.64%, #38126D 107.08%, #261045 156.61%, #190634 183.21%);
+  box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.12);
+}
+
+.exgradient2 {
+  background: linear-gradient(95.56deg, #130428 0.58%, #251043 16.32%, #38126D 29.33%, #261045 45.66%, #190634 54.44%);
+  box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.12);
+}
+
+.exgradient3 {
+  background: linear-gradient(95.56deg, #130428 0.58%, #251043 16.32%, #38126D 29.33%, #261045 45.66%, #190634 54.44%);
+  box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.12);
+}
+
+.exgradient4 {
+  background: linear-gradient(149.88deg, #130428 37.22%, #251043 70.43%, #38126D 97.89%, #261045 132.38%, #190634 150.9%);
+  box-shadow: 4px 7px 26px rgba(0, 0, 0, 0.12);
+}
+
 h3 {
   color: white;
   font-family: "Preahvihear";

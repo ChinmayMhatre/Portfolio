@@ -8,6 +8,7 @@ import { useState } from "react";
 import ScrollToTop from "../components/ScrollToTop";
 import Brands from "../components/Brands";
 import Projects from "../components/Projects";
+import Experience from "../components/Experience";
 
 export default function Home() {
     return (
@@ -24,7 +25,9 @@ export default function Home() {
             <main className=" bg-primary ">
                 {/* <Nav darkMode={darkMode} setDarkMode={setDarkMode} /> */}
                 <Header />
+                <Experience/>
                 <Projects />
+                <Blog/>
                 <ScrollToTop />
 
             </main>
