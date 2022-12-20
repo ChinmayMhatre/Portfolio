@@ -70,7 +70,7 @@ const Projects = () => {
                <h4 className='text-[#9857D3] font-poppins'>Featured Project</h4>
                <h3 className='text-2xl dont-semibold text-[#CCD6F6]'>Gif Jif</h3>
                <p className='font-poppins text-[#CCD6F6]'>
-                  A place to upload your favorite gifs and share them with the world. Users can upload gifs, view gifs, and like gifs.
+                  A place to upload your favorite gifs and share them with the world. Users can upload, view and like gifs.
                </p>
                <h4 className='text-[#9857D3] pt-2'>Technologies Used</h4>
                <div className="flex gap-2 pt-2">
@@ -96,7 +96,7 @@ const Projects = () => {
                <h4 className='text-[#9857D3] font-poppins'>Featured Project</h4>
                <h3 className=' text-2xl dont-semibold text-[#CCD6F6]'>Gumroad Clone</h3>
                <p className='font-poppins text-[#CCD6F6]'>
-                  A landing page clone of Gumroad, a platform for creators to sell their digital products. It uses Tailwind CSS for styling.
+                  A landing page clone of Gumroad, a platform for creators to sell their digital products. 
                </p>
                <h4 className='text-[#9857D3] pt-2'>Technologies Used</h4>
                <div className="flex gap-2 pt-2">
