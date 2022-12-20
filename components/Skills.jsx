@@ -33,7 +33,7 @@ const Skills = () => {
                         data-aos-delay="100"
                         className="circle">
                         <GrReactjs
-                            className="text-white text-lg md:text-2xl"
+                            className="text-[#9857D3] text-lg md:text-2xl"
 
                         />
                     </div>
@@ -43,7 +43,7 @@ const Skills = () => {
                         data-aos-delay="200"
                         className="circle ">
                         <TbBrandNextjs
-                            className="text-white text-lg md:text-2xl"
+                            className="text-[#9857D3] text-lg md:text-2xl"
                         />
                     </div>
                     <div
@@ -51,35 +51,35 @@ const Skills = () => {
                         data-aos="zoom-in"
                         data-aos-delay="300"
                         className="circle ">
-                        <DiJavascript1 className="text-white text-lg md:text-2xl" />
+                        <DiJavascript1 className="text-[#9857D3] text-lg md:text-2xl" />
                     </div>
                     <div
                         data-aos-duration="1000"
                         data-aos="zoom-in"
                         data-aos-delay="400"
                         className="circle">
-                        <DiCss3 className="text-white text-lg md:text-2xl" />
+                        <DiCss3 className="text-[#9857D3] text-lg md:text-2xl" />
                     </div>
                     <div
                         data-aos-duration="1000"
                         data-aos="zoom-in"
                         data-aos-delay="500"
                         className="circle ">
-                        <AiOutlineHtml5 className="text-white text-lg md:text-2xl" />
+                        <AiOutlineHtml5 className="text-[#9857D3] text-lg md:text-2xl" />
                     </div>
                     <div
                         data-aos-duration="1000"
                         data-aos="zoom-in"
                         data-aos-delay="600"
                         className="circle ">
-                        <SiTailwindcss className="text-white text-lg md:text-2xl" />
+                        <SiTailwindcss className="text-[#9857D3] text-lg md:text-2xl" />
                     </div>
                     <div
                         data-aos-duration="1000"
                         data-aos="zoom-in"
                         data-aos-delay="700"
                         className="circle ">
-                        <SiFigma className="text-white text-lg md:text-2xl" />
+                        <SiFigma className="text-[#9857D3] text-lg md:text-2xl" />
                     </div>
                 </div>
                 <ArcherContainer endMarker={false} >
@@ -101,7 +101,7 @@ const Skills = () => {
                                 data-aos-delay="100"
                                 className="circle flex items-center justify-center w-10 h-10 md:w-14 md:h-14 bg-gray-800 rounded-full">
                                 <SiFirebase
-                                    className="text-white text-lg md:text-2xl" />
+                                    className="text-[#9857D3] text-lg md:text-2xl" />
                             </div>
                         </ArcherElement>
                         <ArcherElement
@@ -120,7 +120,7 @@ const Skills = () => {
                                 data-aos="zoom-in"
                                 data-aos-delay="200"
                                 className="circle">
-                                <DiGit className="text-white text-lg md:text-2xl" />
+                                <DiGit className="text-[#9857D3] text-lg md:text-2xl" />
                             </div>
                         </ArcherElement>
                         <ArcherElement
@@ -137,7 +137,7 @@ const Skills = () => {
                             <div data-aos-duration="1000"
                                 data-aos="zoom-in"
                                 data-aos-delay="300" className="circle ">
-                                <AiFillGithub className="text-white text-lg md:text-2xl" />
+                                <AiFillGithub className="text-[#9857D3] text-lg md:text-2xl" />
                             </div>
                         </ArcherElement>
                         <ArcherElement
@@ -154,7 +154,7 @@ const Skills = () => {
                             <div data-aos-duration="1000"
                                 data-aos="zoom-in"
                                 data-aos-delay="400" className="circle ">
-                                <FaNodeJs className="text-white text-lg md:text-2xl" />
+                                <FaNodeJs className="text-[#9857D3] text-lg md:text-2xl" />
                             </div>
                         </ArcherElement>
                         <ArcherElement
@@ -171,7 +171,7 @@ const Skills = () => {
                             <div data-aos-duration="1000"
                                 data-aos="zoom-in"
                                 data-aos-delay="500" className="circle ">
-                                <SiMongodb className="text-white text-lg md:text-2xl" />
+                                <SiMongodb className="text-[#9857D3] text-lg md:text-2xl" />
                             </div>
                         </ArcherElement>
                         <ArcherElement
@@ -188,7 +188,7 @@ const Skills = () => {
                             <div data-aos-duration="1000"
                                 data-aos="zoom-in"
                                 data-aos-delay="600" className="circle ">
-                                <SiExpress className="text-white text-lg md:text-2xl" />
+                                <SiExpress className="text-[#9857D3] text-lg md:text-2xl" />
                             </div>
                         </ArcherElement>
 
