@@ -59,7 +59,7 @@ const Header = () => {
                 data-aos="fade-right"
                 data-aos-delay="200"
                 className="text-white text-[22px] font-preahvihear leading-8 pt-2 md:pr-40">
-                    I specializes in building (and occasionally designing)  digital experiences.
+                    I specialize in building (and occasionally designing)  digital experiences.
 
                 </p>
                 <p
