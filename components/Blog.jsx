@@ -63,17 +63,11 @@ const Blog = () => {
             <div>
                 <h3
                     className="font-preahvihear text-4xl pt-10 text-center "
-                    data-aos="fade-right"
-                    data-aos-duration="1000"
                 >
                     My Blogs
                 </h3>
                 <p
                     className="text-xl text-gray-400 font-preahvihear text-center py-2 "
-                    data-aos="fade-right"
-                    data-aos-delay="100"
-                    data-aos-duration="1000"
-                    data-aos-anchor-placement="top-bottom"
                 >
                     I write about my learnings and share my knowledge
                 </p>

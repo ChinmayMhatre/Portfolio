@@ -103,6 +103,36 @@ p {
   }
 }
 
+#system{
+  animation: pulse 5s infinite;
+}
+
+::-webkit-scrollbar{
+  width: 20px;
+
+}
+
+::-webkit-scrollbar-track{
+  background: #2C1250;
+
+}
+
+::-webkit-scrollbar-thumb{
+  background: #7127BA;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1.05);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
+
 .container .cube {
   z-index: 2;
 }

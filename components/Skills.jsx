@@ -153,7 +153,7 @@ const Skills = () => {
                             },
                         ]}
                     >
-                        <img src="/system.png" className="mt-40" alt="" />
+                        <img id="system" src="/system.png" className="mt-40" alt="" />
                     </ArcherElement>
                 </ArcherContainer>
             </div>
