@@ -9,6 +9,7 @@ import ScrollToTop from "../components/ScrollToTop";
 import Brands from "../components/Brands";
 import Projects from "../components/Projects";
 import Experience from "../components/Experience";
+import Contact from "../components/Contact";
 
 export default function Home() {
     return (
@@ -29,7 +30,7 @@ export default function Home() {
                 <Projects />
                 <Blog/>
                 <ScrollToTop />
-
+                <Contact/>
             </main>
         </div>
     );

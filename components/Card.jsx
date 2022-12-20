@@ -16,9 +16,9 @@ const Card = ({ index, blog }) => {
         if (index == 0) {
             setDelay(0);
         } else if (index == 1) {
-            setDelay(200);
+            setDelay(100);
         } else {
-            setDelay(400);
+            setDelay(200);
         }
     }, [index]);
 
@@ -26,6 +26,9 @@ const Card = ({ index, blog }) => {
 
     return (
         <div
+                data-aos-duration="1000"
+                data-aos="fade-up"
+                data-aos-delay={delay}
             className=" shadow-lg  rounded-xl my-4 md:my-10 font-poppins flex-1 bg-[#251C31] border-b-4  border-[#693B93] lg:max-w-xs"
         // data-aos="fade-up"
         // data-aos-delay={delay}
