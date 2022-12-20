@@ -100,7 +100,7 @@ const Projects = () => {
                   <div className="rounded-md px-2  bg-gray-700 text-[#CCD6F6]">Next.js</div>
                </div>
                <div className="flex gap-2 pt-4">
-                  <a href="https://cute-truffle-ba32fc.netlify.app/" target={_blank} className='text-white border-1 transition-all duration-150 border hover:text-[#9857D3] hover:border-[#9857D3] rounded-md border-white py-2 px-2'>
+                  <a href="https://cute-truffle-ba32fc.netlify.app/" className='text-white border-1 transition-all duration-150 border hover:text-[#9857D3] hover:border-[#9857D3] rounded-md border-white py-2 px-2'>
                      Live Project
                   </a>
                   <a href="" className='text-white transition-all duration-150 border-1  border border-white py-2 px-2 hover:text-[#9857D3] hover:border-[#9857D3] rounded-md'>
