@@ -22,14 +22,14 @@ const Blog = () => {
     const blogs = [
         {
             "id": 1,
-            "title": "Glass Effect With CSS",
+            "title": "CSS Glass Effect",
             "description": "We have seen this UI in many website. It is a very simple effect but it looks very cool.",
             "tag_list": [
                 "css",
                 "html",
                 "webdev"
             ],
-            "img": "/glass.png",
+            "img": "/ts.png",
             "url": "https://dev.to/chinmaymhatre/create-a-glass-ui-using-only-two-css-properties-3k9h",
         },
         {

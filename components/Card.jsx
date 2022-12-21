@@ -29,7 +29,7 @@ const Card = ({ index, blog }) => {
                 data-aos-duration="1000"
                 data-aos="fade-up"
                 data-aos-delay={delay}
-            className=" shadow-lg  rounded-xl my-4 md:my-10 font-poppins flex-1 bg-[#251C31] border-b-4  border-[#693B93] lg:max-w-xs"
+            className=" shadow-lg  rounded-xl my-4 md:my-10 font-poppins  flex-1 bg-[#251C31] border-b-4  border-[#693B93] "
         // data-aos="fade-up"
         // data-aos-delay={delay}
         // data-aos-duration="1000"
@@ -39,7 +39,7 @@ const Card = ({ index, blog }) => {
             <img
                 src={blog.img}
                 alt="blog"
-                className="rounded-lg w-full object-cover"
+                className="rounded-lg "
                 />
             <div className="px-10 py-4">
                 <h3 className="text-xl  font-bold p-0 m-0 font-poppins text-white ">
@@ -50,7 +50,7 @@ const Card = ({ index, blog }) => {
                 design theory. */}
                     {trimText(blog.description)}
                 </p>
-                <div className="flex gap-2 text-xs items-center ">
+                <div className="flex gap-2 text-xs w-60 items-center ">
                     {blog.tag_list.map((tag, index) => {
                         return (
                             <p key={index} className="text-gray-300 py-1 bg-[#2C1250] border border-[#693B93] rounded-lg px-2 ">
