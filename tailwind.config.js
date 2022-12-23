@@ -13,6 +13,9 @@ module.exports = {
             },
             colors: {
                 primary: "#11071F",
+                secondary: "#9857D3",
+                light:"#693B93"
+                
             },
             backgroundImage:{
                 'project-pattern': "url('/project.png')",

@@ -5,9 +5,6 @@ import Card from "../components/Card";
 
 const Blog = () => {
 
-
-
-
     // const getBlog = async () => {
     //     const response = await fetch("https://dev.to/api/articles?username=chinmaymhatre");
     //     const data = await response.json();
@@ -59,7 +56,7 @@ const Blog = () => {
     ]
 
     return (
-        <section className="py-10 w-[90%] md:w-[70%] lg:w-[70%]  mx-auto lg:h-screen flex flex-col items-center justify-center">
+        <section className="py-10 container lg:h-screen flex flex-col items-center justify-center">
             <div>
                 <h3
                     className="font-preahvihear text-4xl pt-10 text-center "
@@ -83,14 +80,10 @@ const Blog = () => {
                         <Card key={index} blog={blog} index={index} />
                     )
                 })}
-
-                {/* <Card delay={0} />
-                <Card delay={200} />
-                <Card delay={400} /> */}
             </div>
 
             <button
-                className=" text-white transition-all duration-150 hover:text-[#9857D3] font-poppins px-10 py-3 rounded-lg "
+                className=" text-white transition-all duration-150 hover:text-secondary font-poppins px-10 py-3 rounded-lg "
             >
                 See more of my Blogs →
             </button>

@@ -6,6 +6,16 @@ import { SiFirebase, SiMongodb, SiExpress, SiFigma, SiTailwindcss } from "react-
 import { DiGit, DiCss3, DiJavascript1 } from "react-icons/di";
 import { AiFillGithub, AiOutlineHtml5 } from "react-icons/ai";
 import { FaNodeJs } from "react-icons/fa"
+import SkillCircle from "./SkillCircle";
+
+let relations= [
+    {
+        targetId: 'img',
+        targetAnchor: 'top',
+        sourceAnchor: 'bottom',
+        style: { strokeColor: '#3D1768', strokeWidth: 1 },
+    },
+]
 
 
 const Skills = () => {
@@ -27,93 +37,32 @@ const Skills = () => {
             <div className="flex justify-center items-center flex-col">
 
                 <div className="skills flex gap-2 md:gap-4 pt-20">
-                    <div
-                        data-aos-duration="1000"
-                        data-aos="zoom-in"
-                        data-aos-delay="100"
-                        className="circle">
-                        <GrReactjs
-                            className="text-[#9857D3] text-lg md:text-2xl"
-
-                        />
-                    </div>
-                    <div
-                        data-aos-duration="1000"
-                        data-aos="zoom-in"
-                        data-aos-delay="200"
-                        className="circle ">
-                        <TbBrandNextjs
-                            className="text-[#9857D3] text-lg md:text-2xl"
-                        />
-                    </div>
-                    <div
-                        data-aos-duration="1000"
-                        data-aos="zoom-in"
-                        data-aos-delay="300"
-                        className="circle ">
-                        <DiJavascript1 className="text-[#9857D3] text-lg md:text-2xl" />
-                    </div>
-                    <div
-                        data-aos-duration="1000"
-                        data-aos="zoom-in"
-                        data-aos-delay="400"
-                        className="circle">
-                        <DiCss3 className="text-[#9857D3] text-lg md:text-2xl" />
-                    </div>
-                    <div
-                        data-aos-duration="1000"
-                        data-aos="zoom-in"
-                        data-aos-delay="500"
-                        className="circle ">
-                        <AiOutlineHtml5 className="text-[#9857D3] text-lg md:text-2xl" />
-                    </div>
-                    <div
-                        data-aos-duration="1000"
-                        data-aos="zoom-in"
-                        data-aos-delay="600"
-                        className="circle ">
-                        <SiTailwindcss className="text-[#9857D3] text-lg md:text-2xl" />
-                    </div>
-                    <div
-                        data-aos-duration="1000"
-                        data-aos="zoom-in"
-                        data-aos-delay="700"
-                        className="circle ">
-                        <SiFigma className="text-[#9857D3] text-lg md:text-2xl" />
-                    </div>
+                        <SkillCircle Icon={GrReactjs} delay="100" />
+                        <SkillCircle Icon={TbBrandNextjs} delay="200" />
+                        <SkillCircle Icon={DiJavascript1} delay="300" />
+                        <SkillCircle Icon={DiCss3} delay="400" />
+                        <SkillCircle Icon={AiOutlineHtml5} delay="500" />
+                        <SkillCircle Icon={SiTailwindcss} delay="600" />
+                        <SkillCircle Icon={SiFigma} delay="700" />
                 </div>
                 <ArcherContainer endMarker={false} >
                     <div className="skills flex justify-center items-center gap-2 md:gap-4 pt-10">
                         <ArcherElement
                             id="1"
-                            relations={[
-                                {
-                                    targetId: 'img',
-                                    targetAnchor: 'top',
-                                    sourceAnchor: 'bottom',
-                                    style: { strokeColor: '#3D1768', strokeWidth: 1 },
-                                },
-                            ]}
+                            relations={relations}
                         >
                             <div
                                 data-aos-duration="1000"
                                 data-aos="zoom-in"
                                 data-aos-delay="100"
-                                className="circle flex items-center justify-center w-10 h-10 md:w-14 md:h-14 bg-gray-800 rounded-full">
+                                className="circle">
                                 <SiFirebase
                                     className="text-[#9857D3] text-lg md:text-2xl" />
                             </div>
                         </ArcherElement>
                         <ArcherElement
                             id="2"
-                            relations={[
-                                {
-                                    targetId: 'img',
-                                    targetAnchor: 'top',
-                                    sourceAnchor: 'bottom',
-                                    style: { strokeColor: '#3D1768', strokeWidth: 1 },
-                                },
-                            ]}
+                            relations={relations}
                         >
                             <div
                                 data-aos-duration="1000"
@@ -125,14 +74,7 @@ const Skills = () => {
                         </ArcherElement>
                         <ArcherElement
                             id="3"
-                            relations={[
-                                {
-                                    targetId: 'img',
-                                    targetAnchor: 'top',
-                                    sourceAnchor: 'bottom',
-                                    style: { strokeColor: '#3D1768', strokeWidth: 1 },
-                                },
-                            ]}
+                            relations={relations}
                         >
                             <div data-aos-duration="1000"
                                 data-aos="zoom-in"
@@ -142,14 +84,7 @@ const Skills = () => {
                         </ArcherElement>
                         <ArcherElement
                             id="4"
-                            relations={[
-                                {
-                                    targetId: 'img',
-                                    targetAnchor: 'top',
-                                    sourceAnchor: 'bottom',
-                                    style: { strokeColor: '#3D1768', strokeWidth: 1 },
-                                },
-                            ]}
+                            relations={relations}
                         >
                             <div data-aos-duration="1000"
                                 data-aos="zoom-in"
@@ -159,14 +94,7 @@ const Skills = () => {
                         </ArcherElement>
                         <ArcherElement
                             id="5"
-                            relations={[
-                                {
-                                    targetId: 'img',
-                                    targetAnchor: 'top',
-                                    sourceAnchor: 'bottom',
-                                    style: { strokeColor: '#3D1768', strokeWidth: 1 },
-                                },
-                            ]}
+                            relations={relations}
                         >
                             <div data-aos-duration="1000"
                                 data-aos="zoom-in"
@@ -176,14 +104,7 @@ const Skills = () => {
                         </ArcherElement>
                         <ArcherElement
                             id="6"
-                            relations={[
-                                {
-                                    targetId: 'img',
-                                    targetAnchor: 'top',
-                                    sourceAnchor: 'bottom',
-                                    style: { strokeColor: '#3D1768', strokeWidth: 1 },
-                                },
-                            ]}
+                            relations={relations}
                         >
                             <div data-aos-duration="1000"
                                 data-aos="zoom-in"
@@ -209,23 +130,6 @@ const Skills = () => {
                     </ArcherElement>
                 </ArcherContainer>
             </div>
-
-            {/* <h3
-                className="text-6xl py-1  dark:text-white text-center"
-                data-aos="fade-up"
-                data-aos-duration="1000"
-            >
-                Skills
-            </h3>
-            <h4
-                className="text-xl dark:text-gray-400 text-center mt-6 "
-                data-aos="fade-up"
-                data-aos-delay="100"
-                data-aos-duration="1000"
-                data-aos-anchor-placement="top-bottom"
-            >
-                Here are some of the technologies I&apos;ve been working with
-            </h4> */}
         </div>
     );
 };

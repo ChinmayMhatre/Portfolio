@@ -2,7 +2,7 @@ import React from 'react'
 
 const Projects = () => {
    return (
-      <div className='w-[90%] md:w-[70%] lg:w-[70%]  mx-auto pb-10'>
+      <div className='container pb-10'>
          <div className='pb-20'>
             <h3
                className="font-preahvihear text-4xl pt-10 text-center "
@@ -26,22 +26,22 @@ const Projects = () => {
                data-aos-duration="1000"
                data-aos-ancor-placement="center-bottom"
                className="order-1">
-               <h4 className='text-[#9857D3] font-poppins'>Featured Project</h4>
+               <h4 className='text-secondary font-poppins'>Featured Project</h4>
                <h3 className='text-2xl dont-semibold text-[#CCD6F6]'>Guitar Practice</h3>
                <p className='font-poppins text-[#CCD6F6]'>
                   Helps guitar players to plan their guitar sessions effectively and keep a track of it at the same time . It is a helpful tool for all levels of guitar player, be it beginner or advanced .
                </p>
-               <h4 className='text-[#9857D3] pt-2'>Technologies Used</h4>
+               <h4 className='text-secondary pt-2'>Technologies Used</h4>
                <div className="flex gap-2 pt-2">
-                  <div className="rounded-md px-2  bg-gray-700 text-[#CCD6F6]">React.js</div>
-                  <div className="rounded-md px-2  bg-gray-700 text-[#CCD6F6]">MongoDB</div>
-                  <div className="rounded-md px-2  bg-gray-700 text-[#CCD6F6]">Express</div>
+                  <div className="projectTag">React.js</div>
+                  <div className="projectTag">MongoDB</div>
+                  <div className="projectTag">Express</div>
                </div>
                <div className="flex gap-2 pt-4">
-                  <a href="https://smiling-cyan-bathing-suit.cyclic.app/" className='text-white border-1 transition-all duration-150 border hover:text-[#9857D3] hover:border-[#9857D3] rounded-md border-white py-2 px-2'>
+                  <a href="https://smiling-cyan-bathing-suit.cyclic.app/" className='projectButton'>
                      Live Project
                   </a>
-                  <a href="https://github.com/ChinmayMhatre/Guitar-Practise" className='text-white transition-all duration-150 border-1  border border-white py-2 px-2 hover:text-[#9857D3] hover:border-[#9857D3] rounded-md'>
+                  <a href="https://github.com/ChinmayMhatre/Guitar-Practise" className='projectButton'>
                      Repository
                   </a>
                </div>
@@ -67,22 +67,22 @@ const Projects = () => {
                data-aos-delay="200"
                data-aos-ancor-placement="center-bottom"
                className="order-3 md:order-4">
-               <h4 className='text-[#9857D3] font-poppins'>Featured Project</h4>
+               <h4 className='text-secondary font-poppins'>Featured Project</h4>
                <h3 className='text-2xl dont-semibold text-[#CCD6F6]'>Gif Jif</h3>
                <p className='font-poppins text-[#CCD6F6]'>
                   A place to upload your favorite gifs and share them with the world. Users can upload, view and like gifs.
                </p>
-               <h4 className='text-[#9857D3] pt-2'>Technologies Used</h4>
+               <h4 className='text-secondary pt-2'>Technologies Used</h4>
                <div className="flex gap-2 pt-2">
-                  <div className="rounded-md px-2  bg-gray-700 text-[#CCD6F6]">Next.js</div>
-                  <div className="rounded-md px-2  bg-gray-700 text-[#CCD6F6]">TailwindCSS</div>
-                  <div className="rounded-md px-2  bg-gray-700 text-[#CCD6F6]">Firebase</div>
+                  <div className="projectTag">Next.js</div>
+                  <div className="projectTag">TailwindCSS</div>
+                  <div className="projectTag">Firebase</div>
                </div>
                <div className="flex gap-2 pt-4">
-                  <a href="https://resplendent-bunny-3098d4.netlify.app/" className='text-white border-1 transition-all duration-150 border hover:text-[#9857D3] hover:border-[#9857D3] rounded-md border-white py-2 px-2'>
+                  <a href="https://resplendent-bunny-3098d4.netlify.app/" className='projectButton'>
                      Live Project
                   </a>
-                  <a href="https://github.com/ChinmayMhatre/Gif-Or-Jif" className='text-white transition-all duration-150 border-1  border border-white py-2 px-2 hover:text-[#9857D3] hover:border-[#9857D3] rounded-md'>
+                  <a href="https://github.com/ChinmayMhatre/Gif-Or-Jif" className='projectButton'>
                      Repository
                   </a>
                </div>
@@ -93,22 +93,22 @@ const Projects = () => {
                data-aos-duration="1000"
                data-aos-ancor-placement="center-bottom"
                className="order-5">
-               <h4 className='text-[#9857D3] font-poppins'>Featured Project</h4>
+               <h4 className='text-secondary font-poppins'>Featured Project</h4>
                <h3 className=' text-2xl dont-semibold text-[#CCD6F6]'>Gumroad Clone</h3>
                <p className='font-poppins text-[#CCD6F6]'>
                   A landing page clone of Gumroad, a platform for creators to sell their digital products. 
                </p>
-               <h4 className='text-[#9857D3] pt-2'>Technologies Used</h4>
+               <h4 className='text-secondary pt-2'>Technologies Used</h4>
                <div className="flex gap-2 pt-2">
-                  <div className="rounded-md px-2  bg-gray-700 text-[#CCD6F6]">Next.js</div>
-                  <div className="rounded-md px-2  bg-gray-700 text-[#CCD6F6]">TailwindCSS</div>
-                  <div className="rounded-md px-2  bg-gray-700 text-[#CCD6F6]">Netlify</div>
+                  <div className="projectTag">Next.js</div>
+                  <div className="projectTag">TailwindCSS</div>
+                  <div className="projectTag">Netlify</div>
                </div>
                <div className="flex gap-2 pt-4">
-                  <a href="https://cute-truffle-ba32fc.netlify.app/" target="_blank" className='text-white border-1 transition-all duration-150 border hover:text-[#9857D3] hover:border-[#9857D3] rounded-md border-white py-2 px-2'>
+                  <a href="https://cute-truffle-ba32fc.netlify.app/" target="_blank" className='projectButton'>
                      Live Project
                   </a>
-                  <a href="https://github.com/ChinmayMhatre/gumroad-clone" target="_blank" className='text-white transition-all duration-150 border-1  border border-white py-2 px-2 hover:text-[#9857D3] hover:border-[#9857D3] rounded-md'>
+                  <a href="https://github.com/ChinmayMhatre/gumroad-clone" target="_blank" className='projectButton'>
                      Repository
                   </a>
                </div>

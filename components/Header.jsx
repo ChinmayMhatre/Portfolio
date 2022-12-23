@@ -8,7 +8,7 @@ import {
 
 const Header = () => {
     return (
-        <div className="w-[90%] md:w-[70%] lg:w-[70%] mx-auto">
+        <div className="container">
             <div className=" py-10 flex-col md:flex-row flex items-center">
                 <div className="relative md:overflow-visible ">
                     <div className="gradient blur-lg w-[300px] mx-auto  h-[300px] md:block rounded-[100%]">
