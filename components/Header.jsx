@@ -66,7 +66,8 @@ const Header = () => {
                 data-aos-duration="1000"
                 data-aos="fade-right"
                 data-aos-delay="300"
-                className="text-white text-[22px] font-preahvihear leading-8 pt-2 md:pr-40">I make meaningful and delightful website. I also like to write about all things JavaScript.</p>
+                className="text-white text-[22px] font-preahvihear leading-8 pt-2 md:pr-40">I make meaningful and delightful website. I also like to write about all things JavaScript. 
+                Checkout my blogs at <a className="text-secondary transition-all duration-150 hover:text-white" href="https://chinmaymhatre.hashnode.dev">here</a>.</p>
             </div>
 
         </div>
