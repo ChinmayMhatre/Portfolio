@@ -59,7 +59,7 @@ const Projects = () => {
                data-aos-duration="1000"
                data-aos-ancor-placement="center-bottom"
                className=" order-4 md:order-3 bg-project-pattern object-contain flex items-center justify-center rounded-md">
-               <img src="/gif.png" className='w-[90%] py-10 object-contain shadow-lg rounded-md' alt="" />
+               <img src="/framer-example.png" className='w-[90%] py-10 object-contain shadow-lg rounded-md' alt="" />
             </div>
             <div
                data-aos="fade-up"
@@ -68,7 +68,7 @@ const Projects = () => {
                data-aos-ancor-placement="center-bottom"
                className="order-3 md:order-4">
                <h4 className='text-secondary font-poppins'>Featured Project</h4>
-               <h3 className='text-2xl dont-semibold text-[#CCD6F6]'>Gif Jif</h3>
+               <h3 className='text-2xl dont-semibold text-[#CCD6F6]'>Framer Scroll</h3>
                <p className='font-poppins text-[#CCD6F6]'>
                   A place to upload your favorite gifs and share them with the world. Users can upload, view and like gifs.
                </p>
@@ -76,13 +76,13 @@ const Projects = () => {
                <div className="flex gap-2 pt-2">
                   <div className="projectTag">Next.js</div>
                   <div className="projectTag">TailwindCSS</div>
-                  <div className="projectTag">Firebase</div>
+                  <div className="projectTag">Framer Motion</div>
                </div>
                <div className="flex gap-2 pt-4">
-                  <a href="https://resplendent-bunny-3098d4.netlify.app/" className='projectButton'>
+                  <a href="https://scintillating-arithmetic-b36d1c.netlify.app" className='projectButton'>
                      Live Project
                   </a>
-                  <a href="https://github.com/ChinmayMhatre/Gif-Or-Jif" className='projectButton'>
+                  <a href="https://github.com/ChinmayMhatre/framer-example" className='projectButton'>
                      Repository
                   </a>
                </div>

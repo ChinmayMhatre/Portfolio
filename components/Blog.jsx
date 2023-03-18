@@ -43,7 +43,7 @@ const Blog = () => {
         },
         {
             "id": 2,
-            "title": "Fingerprint auth in expo",
+            "title": "Fingerprint Auth",
             "description": "We have seen apps that use Biometric Prompts as a layer of security in the application.",
             "tag_list": [
                 "reactnative",
