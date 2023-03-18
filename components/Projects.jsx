@@ -70,7 +70,7 @@ const Projects = () => {
                <h4 className='text-secondary font-poppins'>Featured Project</h4>
                <h3 className='text-2xl dont-semibold text-[#CCD6F6]'>Framer Scroll</h3>
                <p className='font-poppins text-[#CCD6F6]'>
-                  A place to upload your favorite gifs and share them with the world. Users can upload, view and like gifs.
+                  Use Framer motion to add animations
                </p>
                <h4 className='text-secondary pt-2'>Technologies Used</h4>
                <div className="flex gap-2 pt-2">
