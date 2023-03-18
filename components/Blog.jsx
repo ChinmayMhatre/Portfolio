@@ -26,7 +26,7 @@ const Blog = () => {
                 "html",
                 "webdev"
             ],
-            "img": "/ts.png",
+            "img": "/glass.png",
             "url": "https://dev.to/chinmaymhatre/create-a-glass-ui-using-only-two-css-properties-3k9h",
         },
         {
