@@ -48,22 +48,22 @@ const Experience = () => {
                 <div
                     data-aos-duration="1000"
                     data-aos="fade-up"
-                    className="py-10 px-10 flex gap-4 items-center exgradient3 rounded-xl z-10 border-t-2 border-light">
-                    <img src="/alegria.png" alt="" />
-                    <div className="">
-                        <h3 className='text-2xl font-preahvihear'>Wordpress Developer</h3>
-                        <h4 className='text-white text-md font-poppins'>Alegria - the festival of joy</h4>
-                    </div>
-                </div>
-                <div
-                    data-aos-duration="1000"
-                    data-aos="fade-up"
                     data-aos-delay="100"
                     className="py-10 px-10 flex font-poppins gap-4 items-center exgradient4 rounded-xl z-10 border-t-2 border-light">
                     <img src="/freelance.png" alt="" />
                     <div className="">
                         <h3 className='text-2xl font-preahvihear'>Front End Developer</h3>
                         <h4 className='text-white text-md'>Freelancer</h4>
+                    </div>
+                </div>
+                <div
+                    data-aos-duration="1000"
+                    data-aos="fade-up"
+                    className="py-10 px-10 flex gap-4 items-center exgradient3 rounded-xl z-10 border-t-2 border-light">
+                    <img src="/alegria.png" alt="" />
+                    <div className="">
+                        <h3 className='text-2xl font-preahvihear'>Wordpress Developer</h3>
+                        <h4 className='text-white text-md font-poppins'>Alegria - the festival of joy</h4>
                     </div>
                 </div>
             </div>
