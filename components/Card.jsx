@@ -37,15 +37,13 @@ const Card = ({ index, blog }) => {
                 <img
                     src={blog.img}
                     alt="blog"
-                    className="rounded-lg "
+                    className="rounded-lg w-full"
                 />
                 <div className="px-10 py-4">
                     <h3 className="text-xl  font-bold p-0 m-0 font-poppins text-white ">
                         {blog.title}
                     </h3>
                     <p className="pb-4 text-xs font-poppins  text-gray-400">
-                        {/* Creating elegant designs suited for your needs following core
-                design theory. */}
                         {trimText(blog.description)}
                     </p>
                     <div className="flex gap-2 text-xs w-60 items-center ">

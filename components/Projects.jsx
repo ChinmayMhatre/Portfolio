@@ -73,7 +73,7 @@ const Projects = () => {
                            {project.description}
                         </p>
                         <h4 className='text-secondary pt-2'>Technologies Used</h4>
-                        <div className="flex gap-2 pt-2">
+                        <div className="flex gap-2 pt-2 flex-wrap">
                            {
                               project.technologies.map((tech, index) => (
                                  <div key={index} className="projectTag">{tech}</div>
@@ -102,7 +102,7 @@ const Projects = () => {
                         data-aos-duration="1000"
                         data-aos-delay="200"
                         data-aos-ancor-placement="center-bottom"
-                        className={` ${project.primary ? 'md:order-2' : 'md:order-1'} order-1 bg-project-pattern object-contain flex items-center justify-center rounded-md`}>
+                        className={` ${project.primary ? 'md:order-2' : 'md:order-1'} order-1 bg-project-pattern object-contain bg-no-repeat   bg-cover flex items-center justify-center rounded-md`}>
                         <img src={project.image} className='w-[90%] py-10 object-contain shadow-lg rounded-md' alt="" />
                      </div>
                   </div>
